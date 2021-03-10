@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Webpack setup for a basic multi page HTML5 Static Website.",
   "main": "app.js",
+  "engines": {
+    "node": ">=10.x"
+  },
   "scripts": {
     "start": "run-s clean dev:serve",
     "build": "run-s clean build:compile",
@@ -18,8 +21,16 @@
     "webpack5",
     "multipage"
   ],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balasasidhar/html-boilerplate.git"
+  },
+  "author": "balasasidhar (howdy@balasasidhar.com)",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/balasasidhar/html-boilerplate/issues"
+  },
+  "homepage": "https://github.com/balasasidhar/html-boilerplate#readme",
   "devDependencies": {
     "@babel/core": "^7.13.10",
     "@babel/plugin-proposal-class-properties": "^7.13.0",
