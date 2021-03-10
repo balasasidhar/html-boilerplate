@@ -9,7 +9,8 @@ const generateHtmlPlugin = ({ title, template, chunks, filename }) => {
     title,
     template,
     chunks,
-    filename
+    filename,
+    inject: 'body'
   });
 };
 

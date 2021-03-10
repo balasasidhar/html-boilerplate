@@ -1,3 +1,2 @@
-import './scss/theme.scss';
-
 import './components';
+import './scss/theme.scss';

@@ -9,8 +9,8 @@ const packages = require('./package.json');
 
 module.exports = {
   entry: {
-    app: './src/app.js',
     vendor: Object.keys(packages.dependencies),
+    app: './src/app.js',
     home: './src/js/home.js',
     about: './src/js/about.js'
   },
